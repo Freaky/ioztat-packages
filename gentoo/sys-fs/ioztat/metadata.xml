@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tom@hur.st</email>
+		<name>Thomas Hurst</name>
+	</maintainer>
+	<longdescription lang="en">
+		ioztat is a storage load analysis tool for OpenZFS.
+		It provides iostat-like statistics at an individual
+		dataset/zvol level, complementing the pool/vdev level
+		statistics offered by zpool iostat.
+	</longdescription>
+
+	<upstream>
+		<remote-id type="github">jimsalterjrs/ioztat</remote-id>
+	</upstream>
+</pkgmetadata>
